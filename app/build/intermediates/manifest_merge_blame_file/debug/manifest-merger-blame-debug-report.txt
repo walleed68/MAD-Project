@@ -1,0 +1,214 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.semproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:5:5-76:19
+17        android:allowBackup="true"
+17-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.1] /home/kali/.gradle/caches/transforms-2/files-2.1/33718701d713ca3e83325f7dda0e045d/core-1.3.1/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:hardwareAccelerated="false"
+20-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:7:9-44
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:8:9-43
+22        android:label="@string/app_name"
+22-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:9:9-41
+23        android:largeHeap="true"
+23-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:10:9-33
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:11:9-54
+25        android:supportsRtl="true"
+25-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:12:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:13:9-40
+28        <activity
+28-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:14:9-17:68
+29            android:name="com.example.semproject.SetRates"
+29-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:15:13-37
+30            android:label="@string/title_activity_set_rates"
+30-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:16:13-61
+31            android:theme="@style/AppTheme.NoActionBar" />
+31-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:17:13-56
+32        <activity
+32-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:18:9-21:59
+33            android:name="com.example.semproject.Rates"
+33-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:19:13-34
+34            android:label="@string/title_activity_rates"
+34-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:20:13-57
+35            android:theme="@style/AppTheme.NoActionBar" />
+35-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:21:13-56
+36        <activity
+36-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:22:9-25:59
+37            android:name="com.example.semproject.ChangePassword"
+37-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:23:13-43
+38            android:label="@string/title_activity_change_password"
+38-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:24:13-67
+39            android:theme="@style/AppTheme.NoActionBar" />
+39-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:25:13-56
+40        <activity
+40-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:26:9-29:59
+41            android:name="com.example.semproject.CreateLocalAdmin"
+41-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:27:13-45
+42            android:label="@string/title_activity_create_local_admin"
+42-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:28:13-70
+43            android:theme="@style/AppTheme.NoActionBar" />
+43-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:29:13-56
+44        <activity
+44-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:30:9-33:59
+45            android:name="com.example.semproject.RemoveLocalAdmin"
+45-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:31:13-45
+46            android:label="@string/title_activity_remove_local_admin"
+46-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:32:13-70
+47            android:theme="@style/AppTheme.NoActionBar" />
+47-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:33:13-56
+48        <activity
+48-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:34:9-37:59
+49            android:name="com.example.semproject.ManageLocalAdmins"
+49-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:35:13-46
+50            android:label="@string/title_activity_manage_local_admins"
+50-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:36:13-71
+51            android:theme="@style/AppTheme.NoActionBar" />
+51-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:37:13-56
+52        <activity
+52-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:38:9-41:59
+53            android:name="com.example.semproject.SelectRegion"
+53-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:39:13-41
+54            android:label="@string/title_activity_select_region"
+54-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:40:13-65
+55            android:theme="@style/AppTheme.NoActionBar" />
+55-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:41:13-56
+56        <activity
+56-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:42:9-45:59
+57            android:name="com.example.semproject.ForgetPassword"
+57-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:43:13-43
+58            android:label="@string/title_activity_forget_password"
+58-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:44:13-67
+59            android:theme="@style/AppTheme.NoActionBar" />
+59-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:45:13-56
+60        <activity
+60-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:46:9-49:59
+61            android:name="com.example.semproject.LocalAdminlogin"
+61-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:47:13-44
+62            android:label="@string/title_activity_local_adminlogin"
+62-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:48:13-68
+63            android:theme="@style/AppTheme.NoActionBar" />
+63-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:49:13-56
+64        <activity
+64-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:50:9-53:59
+65            android:name="com.example.semproject.MainAdminlogin"
+65-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:51:13-43
+66            android:label="@string/title_activity_main_adminlogin"
+66-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:52:13-67
+67            android:theme="@style/AppTheme.NoActionBar" />
+67-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:53:13-56
+68        <activity
+68-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:54:9-57:59
+69            android:name="com.example.semproject.MainAdmin"
+69-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:55:13-38
+70            android:label="@string/title_activity_main_admin"
+70-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:56:13-62
+71            android:theme="@style/AppTheme.NoActionBar" />
+71-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:57:13-56
+72        <activity
+72-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:58:9-61:59
+73            android:name="com.example.semproject.Adminpannel"
+73-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:59:13-40
+74            android:label="@string/title_activity_adminpannel"
+74-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:60:13-63
+75            android:theme="@style/AppTheme.NoActionBar" />
+75-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:61:13-56
+76        <activity
+76-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:62:9-65:59
+77            android:name="com.example.semproject.ApplyforAdmin"
+77-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:63:13-42
+78            android:label="@string/title_activity_applyfor_admin"
+78-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:64:13-66
+79            android:theme="@style/AppTheme.NoActionBar" />
+79-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:65:13-56
+80        <activity
+80-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:66:9-75:20
+81            android:name="com.example.semproject.MainActivity"
+81-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:67:13-41
+82            android:label="@string/app_name"
+82-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:68:13-45
+83            android:theme="@style/AppTheme.NoActionBar" >
+83-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:69:13-56
+84            <intent-filter>
+84-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:70:13-74:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:71:17-69
+85-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:71:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:73:17-77
+87-->/home/kali/AndroidStudioProjects/semproject/app/src/main/AndroidManifest.xml:73:27-74
+88            </intent-filter>
+89        </activity>
+90
+91        <service
+91-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:29:9-35:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:30:13-84
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:19.3.1] /home/kali/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:31:13-37
+95            <meta-data
+95-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:32:13-34:85
+96                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+96-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:33:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-database:19.5.1] /home/kali/.gradle/caches/transforms-2/files-2.1/9017fe7708a169c2a50beebdca0845a8/jetified-firebase-database-19.5.1/AndroidManifest.xml:34:17-82
+98        </service>
+99
+100        <provider
+100-->[com.google.firebase:firebase-common:19.3.1] /home/kali/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+101            android:name="com.google.firebase.provider.FirebaseInitProvider"
+101-->[com.google.firebase:firebase-common:19.3.1] /home/kali/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+102            android:authorities="com.example.semproject.firebaseinitprovider"
+102-->[com.google.firebase:firebase-common:19.3.1] /home/kali/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-common:19.3.1] /home/kali/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+104            android:exported="false"
+104-->[com.google.firebase:firebase-common:19.3.1] /home/kali/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+105            android:initOrder="100" />
+105-->[com.google.firebase:firebase-common:19.3.1] /home/kali/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:17.0.0] /home/kali/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:17.0.0] /home/kali/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:17.0.0] /home/kali/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:17.0.0] /home/kali/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:17.0.0] /home/kali/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:17.0.0] /home/kali/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:17.0.0] /home/kali/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+115    </application>
+116
+117</manifest>

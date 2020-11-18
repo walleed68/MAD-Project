@@ -1,0 +1,4 @@
+#Wed Nov 18 23:03:12 PKT 2020
+base.0=/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

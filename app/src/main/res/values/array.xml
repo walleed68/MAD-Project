@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Select your region</item>
+        <item>Abbottabad</item>
+        <item>Rawalpindi</item>
+        <item>Lahore</item>
+        <item>Karachi</item>
+        <item>Multan</item>
+        <item>Peshawar</item>
+        <item>Jhang</item>
+    </string-array>
+</resources>

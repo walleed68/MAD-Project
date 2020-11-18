@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.semproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.semproject.SetRates"
+            android:label="@string/title_activity_set_rates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.Rates"
+            android:label="@string/title_activity_rates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.CreateLocalAdmin"
+            android:label="@string/title_activity_create_local_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.RemoveLocalAdmin"
+            android:label="@string/title_activity_remove_local_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.ManageLocalAdmins"
+            android:label="@string/title_activity_manage_local_admins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.SelectRegion"
+            android:label="@string/title_activity_select_region"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.ForgetPassword"
+            android:label="@string/title_activity_forget_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.LocalAdminlogin"
+            android:label="@string/title_activity_local_adminlogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.MainAdminlogin"
+            android:label="@string/title_activity_main_adminlogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.MainAdmin"
+            android:label="@string/title_activity_main_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.Adminpannel"
+            android:label="@string/title_activity_adminpannel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.ApplyforAdmin"
+            android:label="@string/title_activity_applyfor_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.semproject.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.semproject.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

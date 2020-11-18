@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.semproject">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SetRates"
+            android:label="@string/title_activity_set_rates"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Rates"
+            android:label="@string/title_activity_rates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateLocalAdmin"
+            android:label="@string/title_activity_create_local_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RemoveLocalAdmin"
+            android:label="@string/title_activity_remove_local_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManageLocalAdmins"
+            android:label="@string/title_activity_manage_local_admins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelectRegion"
+            android:label="@string/title_activity_select_region"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgetPassword"
+            android:label="@string/title_activity_forget_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LocalAdminlogin"
+            android:label="@string/title_activity_local_adminlogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainAdminlogin"
+            android:label="@string/title_activity_main_adminlogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainAdmin"
+            android:label="@string/title_activity_main_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adminpannel"
+            android:label="@string/title_activity_adminpannel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ApplyforAdmin"
+            android:label="@string/title_activity_applyfor_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

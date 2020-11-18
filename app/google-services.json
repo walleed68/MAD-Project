@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1092571202468",
+    "firebase_url": "https://semproject-acdd6.firebaseio.com",
+    "project_id": "semproject-acdd6",
+    "storage_bucket": "semproject-acdd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092571202468:android:16896e798bac25da0c3731",
+        "android_client_info": {
+          "package_name": "com.example.semproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092571202468-1hnisqvpsl1p2ic35ajr22ocgetf6omi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.semproject",
+            "certificate_hash": "6c089e0d8718a16f7fbbcea59d2636b4d35f4111"
+          }
+        },
+        {
+          "client_id": "1092571202468-v82m7ehfu0ublu0rl9t7e7tta8hb7l3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzQuWBa1gVRckJPYFvO0t3H-ClxfF15fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092571202468-v82m7ehfu0ublu0rl9t7e7tta8hb7l3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
