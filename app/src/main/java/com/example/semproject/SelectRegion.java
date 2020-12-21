@@ -10,10 +10,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
-public class SelectRegion extends AppCompatActivity {
+public class SelectRegion extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
 
         Button btn12;
 
@@ -27,6 +29,17 @@ public class SelectRegion extends AppCompatActivity {
         setContentView(R.layout.activity_select_region);
 
         spinner= (Spinner) findViewById(R.id.spinner2);
+        ArrayAdapter adapter = ArrayAdapter.createFromResource(
+
+                this,
+                R.array.spinnerItems,
+                R.layout.color_spinner_layout
+
+        );
+        adapter.setDropDownViewResource(R.layout.spinner_dropdown_layout);
+
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
 
 
         btn12 = (Button) findViewById(R.id.button12);
@@ -51,5 +64,15 @@ public class SelectRegion extends AppCompatActivity {
         region = spinner.getSelectedItem().toString();
         intent.putExtra("region",region);
         startActivity(intent);
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
     }
 }

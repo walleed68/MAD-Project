@@ -1,19 +1,19 @@
 [
     {
-        "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_fragment_second10.xml.flat",
-        "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/fragment_second10.xml"
-    },
-    {
-        "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_fragment_first13.xml.flat",
-        "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/fragment_first13.xml"
+        "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_fragment_first8.xml.flat",
+        "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/fragment_first8.xml"
     },
     {
         "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_fragment_second9.xml.flat",
         "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/fragment_second9.xml"
     },
     {
-        "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_fragment_first8.xml.flat",
-        "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/fragment_first8.xml"
+        "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_fragment_first13.xml.flat",
+        "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/fragment_first13.xml"
+    },
+    {
+        "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_fragment_second10.xml.flat",
+        "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/fragment_second10.xml"
     },
     {
         "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -162,6 +162,10 @@
     {
         "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_activity_main_adminlogin.xml.flat",
         "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/activity_main_adminlogin.xml"
+    },
+    {
+        "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_color_spinner_layout.xml.flat",
+        "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/color_spinner_layout.xml"
     },
     {
         "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_content_change_password.xml.flat",
@@ -346,6 +350,10 @@
     {
         "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_content_rates.xml.flat",
         "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/content_rates.xml"
+    },
+    {
+        "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_spinner_dropdown_layout.xml.flat",
+        "source": "/home/kali/AndroidStudioProjects/semproject/app/src/main/res/layout/spinner_dropdown_layout.xml"
     },
     {
         "merged": "/home/kali/AndroidStudioProjects/semproject/app/build/intermediates/res/merged/debug/layout_fragment_first10.xml.flat",

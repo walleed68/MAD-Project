@@ -10,6 +10,7 @@ import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
@@ -21,7 +22,7 @@ import org.w3c.dom.Text;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     TextView txt4;
     TextView txt2;
@@ -45,7 +46,17 @@ public class MainActivity extends AppCompatActivity {
 
         spinner= (Spinner) findViewById(R.id.spinner);
 
+        ArrayAdapter adapter = ArrayAdapter.createFromResource(
 
+                this,
+                R.array.spinnerItems,
+                R.layout.color_spinner_layout
+
+        );
+        adapter.setDropDownViewResource(R.layout.spinner_dropdown_layout);
+
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
 
         txt4=(TextView) findViewById(R.id.textView4);
         txt4.setOnClickListener(new View.OnClickListener() {
@@ -118,4 +129,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
+    }
 }

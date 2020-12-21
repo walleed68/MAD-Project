@@ -14,8 +14,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
@@ -25,8 +25,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="218dp"
-        android:layout_height="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="Potato Rs per kg"
@@ -40,8 +40,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="100dp"
-        android:layout_height="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center"
@@ -53,8 +53,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,8 +63,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,8 +73,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,8 +83,8 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="1dp"
@@ -94,8 +94,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="1dp"
@@ -105,11 +105,11 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="218dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="92dp"
         android:gravity="center"
         android:text="Cabbage Rs per kg"
         android:textAlignment="center"
@@ -120,8 +120,8 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="100dp"
-        android:layout_height="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center"
@@ -133,9 +133,9 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="218dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center"
@@ -148,8 +148,8 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="100dp"
-        android:layout_height="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center"
@@ -161,11 +161,11 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="218dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
         android:gravity="center"
         android:text="Lemon Rs per kg"
         android:textAlignment="center"
@@ -176,8 +176,8 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="100dp"
-        android:layout_height="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center"
@@ -189,11 +189,11 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="218dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
         android:gravity="center"
         android:text="Onion Rs per kg"
         android:textAlignment="center"
@@ -204,8 +204,8 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="100dp"
-        android:layout_height="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center"
@@ -217,11 +217,11 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="218dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="96dp"
         android:gravity="center"
         android:text="Tomato Rs per kg"
         android:textAlignment="center"
@@ -232,8 +232,8 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="100dp"
-        android:layout_height="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center"
