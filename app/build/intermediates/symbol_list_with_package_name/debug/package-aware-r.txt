@@ -1841,6 +1841,7 @@ id button_second
 id cache_measures
 id cancel_action
 id cancel_button
+id cell
 id center
 id center_horizontal
 id center_vertical
@@ -1857,6 +1858,7 @@ id chronometer
 id clear_text
 id clip_horizontal
 id clip_vertical
+id cnic
 id collapseActionView
 id confirm_button
 id container
@@ -1917,13 +1919,8 @@ id editText404
 id editText405
 id editText5
 id editText6
-id editTextTextPersonName10
-id editTextTextPersonName11
 id editTextTextPersonName3
 id editTextTextPersonName4
-id editTextTextPersonName7
-id editTextTextPersonName8
-id editTextTextPersonName9
 id edit_query
 id end
 id end_padder
@@ -1942,6 +1939,7 @@ id fitToContents
 id fixed
 id flip
 id floating
+id fname
 id forever
 id fragment_container_view_tag
 id ghost_view
@@ -1985,6 +1983,7 @@ id line3
 id linear
 id listMode
 id list_item
+id lname
 id masked
 id media_actions
 id message
@@ -2052,6 +2051,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id region
 id reverseSawtooth
 id right
 id right_icon

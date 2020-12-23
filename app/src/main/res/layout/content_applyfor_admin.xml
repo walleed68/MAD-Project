@@ -21,9 +21,11 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/fname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="81dp"
         android:background="#000000"
         android:ems="10"
@@ -34,17 +36,14 @@
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/lname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginRight="29dp"
+        android:layout_marginTop="41dp"
         android:background="#000000"
         android:ems="10"
         android:gravity="center"
@@ -55,12 +54,15 @@
         android:textColorHint="#ffffff"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName9"
+        android:id="@+id/cnic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginBottom="53dp"
         android:background="#000000"
         android:ems="10"
@@ -71,15 +73,16 @@
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName10"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cell"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/cell"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="44dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="45dp"
         android:background="#000000"
         android:ems="10"
         android:gravity="center"
@@ -89,14 +92,15 @@
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName11"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/region"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/region"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
         android:layout_marginBottom="251dp"
         android:background="#000000"
         android:ems="10"
@@ -108,7 +112,5 @@
         android:textColorHint="#ffffff"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
