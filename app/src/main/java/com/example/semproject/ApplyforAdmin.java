@@ -62,8 +62,8 @@ public class ApplyforAdmin extends AppCompatActivity {
 
         //Sender Email Credential
 
-        sEmail = "bcsfyp2k17@gmail.com";
-        sPassword = "fyp2k17a";
+        sEmail = "";
+        sPassword = "";
 
         btnsnd.setOnClickListener(new View.OnClickListener() {
             @Override
